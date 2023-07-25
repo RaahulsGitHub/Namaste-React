@@ -1,0 +1,43 @@
+1.What is Emmet?
+->Emmet is a toolkit that helps developers to write down large code blocks in HTML in a few lines using emmet shortcuts.
+
+
+2.Difference between a Library and Framework?
+->	1)Framework:
+		Framework is the combination of libraries, cofig, helper,....Every framework haves a design pattern to work.... Like MVC...
+
+	2) Library: 
+		Library is the collection of predefined functions and predefined classes.
+
+
+3.What is CDN? Why do we use it?
+->A content delivery network (CDN) is a network of interconnected servers that speeds up webpage loading for data-heavy applications. CDN can stand for content delivery network or content distribution network.
+
+
+4.Why is React known as React?
+->React is one of many libraries and it's completely frontend and specializes in things that the user interacts with when they're using a website. This could be buttons, search bars and menus. “And it's called React because it reacts.
+
+
+5.What is crossorigin in script tag?
+->The crossorigin attribute sets the mode of the request to an HTTP CORS (Cross Origin Resource Sharing) Request. Web pages often make requests to load resources on other servers. Here is where CORS comes in. A cross-origin request is a request for a resource (e.g. style sheets, iframes, images, fonts, or scripts) from ANOTHER DOMAIN..........The OPPOSITE of CROSSORIGIN is SAMEORIGIN which means from SAME DOMAIN or SAME SERVER.
+
+
+6.What is diference between React and ReactDOM?
+->React library is responsible for creating views and ReactDOM library is responsible to actually render UI in the browser.
+For ex: We created a heading tag using React.createElement("h1","Namaste react") and used ReactDOM.createRoot(document.getElementbyId("root")) to set the root of the react app to render the heading element to DOM or to see it on the screen (root.render(heading)).
+
+
+7.What is difference between react.development.js and react.production.js files via CDN?
+->By default, React. js builds your project in development mode, which includes features like detailed error messages and debugging tools. However, when you're ready to deploy your application, it's important to build it in production mode to benefit from optimized performance and reduced bundle size.
+
+8.What is async and defer?
+->There are 3 Scenario 1.<script> tag without ASYNC and DEFER 2.<script> tag with ASYNC 3. <script> tag with defer
+
+	1.Scenario <script src="index.js"/>
+	>> HTML parsing starts, then HTML parsing stop as <script> tag is encountered then the scripts are fetched from the network and 	   then the scripts are executed and then HTML parsing contineous..
+
+	2.Scenario <script src="index.js" async/> (async does not garantee the order of execution of scripts)
+	>> HTML parsing and scripts fetching is parallelly or synchronously and then as soon as the scripts are avilable the HTML parsing 	   stops and the script gets executed and after execution the HTML parsing continious.
+	
+	3.Scenario <script src="index.js" defer/> (defer garantee the order of execution of scripts)
+	>> HTML parsing and scritps fetching parallelly or synchronously and scripts are only executed once the HTML parsing is completed.
