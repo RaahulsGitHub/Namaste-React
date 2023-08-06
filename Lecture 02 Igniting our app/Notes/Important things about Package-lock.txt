@@ -1,0 +1,7 @@
+****Important things about Package- lock. json****
+
+1 .It is a very important file it locks the version.
+2 .Never put it inside .gitignore.
+3 .
+
+        

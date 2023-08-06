@@ -1,0 +1,1 @@
+{"mappings":"AAAA;;;;;AAKA;;;;AAKA","sources":["index.css"],"sourcesContent":["body {\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n\r\nh1,\r\nh2 {\r\n  margin: 0;\r\n}\r\n\r\n#root {\r\n  font-family: poppins;\r\n}\r\n"],"names":[],"version":3,"file":"index.9e4c6fd2.css.map","sourceRoot":"/__parcel_source_root/"}
